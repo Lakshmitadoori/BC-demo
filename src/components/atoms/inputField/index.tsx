@@ -12,6 +12,7 @@ export interface InputFieldProps
 const TextFieldStyled = styled(TextField)(`
   & .MuiOutlinedInput-root {
     &:hover fieldset {
+      
       border: 1px solid ${theme.palette.greyColors.stroke2};
     }
     &.Mui-focused fieldset {
