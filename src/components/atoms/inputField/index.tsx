@@ -4,6 +4,7 @@ import React, { ReactNode } from "react";
 import { theme } from "../../../theme/theme";
 export interface InputFieldProps
   extends Omit<TextFieldProps, "startAdornment" | "endAdornment"> {
+    
   startAdornment?: ReactNode;
   endAdornment?: ReactNode;
 }
