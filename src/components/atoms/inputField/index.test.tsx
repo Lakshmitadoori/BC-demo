@@ -4,6 +4,7 @@ import userEvent from "@testing-library/user-event";
 import { InputField } from ".";
 
 describe("InputField", () => {
+  
   test("renders input field with label and handles value change", () => {
     const handleChange = jest.fn((event) => {
       return {
